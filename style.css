@@ -1,3 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background-color: #60B9CE;
+}
+
+.wrapper {
+  margin: auto;
+}
+@media (max-width: 1280px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+.slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slides__slide {
+  background-color: #60B9CE;
+  height: 20rem;
+  width: 20rem;
+}
+.slides__slide img {
+  width: 100%;
+  height: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
